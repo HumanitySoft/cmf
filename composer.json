@@ -1,0 +1,5 @@
+{
+    "require":{
+      "humanitysoft/humanity":"dev-master"
+    }
+}
