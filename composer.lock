@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HumanitySoft/humanity.git",
-                "reference": "909c7720c72082e665424a3d2b33dbb201f5a9eb"
+                "reference": "2120b93bbddbf371736632eb86d9401f3c55f899"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HumanitySoft/humanity/zipball/909c7720c72082e665424a3d2b33dbb201f5a9eb",
-                "reference": "909c7720c72082e665424a3d2b33dbb201f5a9eb",
+                "url": "https://api.github.com/repos/HumanitySoft/humanity/zipball/2120b93bbddbf371736632eb86d9401f3c55f899",
+                "reference": "2120b93bbddbf371736632eb86d9401f3c55f899",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "php",
                 "va"
             ],
-            "time": "2016-05-09 06:55:55"
+            "time": "2016-05-09 16:12:18"
         }
     ],
     "packages-dev": [],
