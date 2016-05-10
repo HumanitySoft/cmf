@@ -1,0 +1,8 @@
+#!/usr/bin/php
+<?php
+require __DIR__ . '/vendor/autoload.php';
+$method = $argv[1];
+$data = (isset($argv[2])) ? $argv[2] : '{}';
+$res = (new humanitysoft\humanity\Apps(__DIR__.'/application/lib/'))->exec($method,$data);
+var_dump($res);
+?>

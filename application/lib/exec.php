@@ -8,7 +8,8 @@ return function($method,$json=null){
   $reflection = new \ReflectionFunction($function);
   $params = [];
   foreach($reflection->getParameters() as $key=>$value){
-    $params[] = $value->name;
+    if(isset($data[$value->name])) $params[] = $data[$value->name];
+    else $params[] = null;
   }
   $app = new self;
   $method = explode('/',$method);
