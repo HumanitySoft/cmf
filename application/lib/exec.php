@@ -16,7 +16,7 @@ return function($method,$json=null){
   $count = count($method);
   for($i=$count;$i > 0;$i--){
     $name = array_shift($method); 
-    if($i == 1) $app = call_user_method_array($name,$app,$params);
+    if($i == 1) $app = call_user_func_array($name,$app,$params);
     else $app = $app->{$name};
   }
   return $app;
